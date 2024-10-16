@@ -1,0 +1,84 @@
+body{
+    /* background-color: grey; */
+    background-color:hsl(248, 15%, 11%);
+    font-family:"Outfit";
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    /* color:hsl(251, 9%, 53%); */
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+.qr{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    height: 30em;
+    width: 20em;
+    background-color: hsl(247, 11%, 15%);
+    border-radius: 2em;
+}
+.qr-image{
+    height: 10em;
+    width: 10em;
+    background-color: aqua;
+    /* padding: 10px; */
+    /* border-radius: 10px; */
+    margin: 4em auto 1em;
+    /* background: url("https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Killer+Abhi"); */
+    background-repeat: no-repeat;
+}
+.qr-request{
+    text-align: center;
+}
+.qr-request input{
+    height: 4em;
+    width: 80%;
+    font-size: 1.3em;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0em 1em;
+    /* background-color: hsl(251, 9%, 53%); */
+    background-color:hsl(248, 15%, 11%);
+    color: aliceblue;
+    outline: none;
+    font-family: "JetBrains Mono", monospace;
+
+}
+.qr-request input::placeholder{
+    color: hsl(127, 100%, 82%);
+}
+.qr-generate{
+    text-align: center;
+    margin-top: 3em;
+}
+.btn{
+    width: 80%;
+    margin: auto;
+    height: 3em;
+    border:none;
+    border-radius: 0.5em;
+    background-color: hsl(127, 100%, 82%);
+    font-size: 1.5em;
+    font-family: "JetBrains Mono", monospace;
+  }
+  .btn:hover{
+    cursor: pointer;
+    background-color:hsl(248, 15%, 11%) ;
+    /* color: hsl(127, 100%, 82%); */
+    color: aliceblue;
+    font-family: "JetBrains Mono", monospace;
+  }
+  footer{
+    color:hsl(251, 9%, 53%);
+    text-align: center;
+    margin-top: 1em;
+  }
